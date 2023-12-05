@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/kddnewton/parser-prism.git
+  revision: bd001462ce4d439978e447dade90f78bf5fe5fb0
+  specs:
+    parser-prism (0.1.0)
+      parser
+      prism
+
 PATH
   remote: .
   specs:
@@ -64,6 +72,7 @@ GEM
     parser (3.2.2.4)
       ast (~> 2.4.1)
       racc
+    prism (0.18.0)
     psych (5.1.0)
       stringio
     racc (1.7.3)
@@ -96,6 +105,7 @@ DEPENDENCIES
   minitest (~> 5.20)
   minitest-hooks
   minitest-slow_test
+  parser-prism!
   rake
   stackprof
   steep!

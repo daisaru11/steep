@@ -12,3 +12,5 @@ end
 gem 'minitest-slow_test'
 
 gem "debug", require: false, platform: :mri
+
+gem "parser-prism", github: "kddnewton/parser-prism"
